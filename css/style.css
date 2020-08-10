@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+    
+}
+.cls{
+    clear: both;
+}
+nav{
+    background-color: lightskyblue;
+  
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img{
+    width: 250px;
+    height: 150px;
+    float: left;
+    padding-top: 0px;
+}
+.menu{
+     width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 60px 20px;
+}
+
+.menu ul li a{
+    font-size: 150%;
+    color: black;
+    margin: 20px 5px;
+}
+
+.menu ul li:hover a{
+   color: red;
+}
+
+/*menu part css end*/
+
+/*banner part css start*/
+.banner{
+    background: url(../images/phone.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overlay{
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 200px 0;
+    color: #fff;
+}
+/*banner part css end*/
+
+
+/*about part css start */
+#about{
+    padding: 50px 0;
+}
+.common_heading h4{
+    text-align: center;
+    font-size: 40px;
+    background-color: red;
+    padding: 15px 0;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about_img{
+    width: 48%;
+    float: left;
+    margin-right: 20px;
+}
+.about_con{
+    width: 50%;
+    float: left;
+}
+.about_img img{
+    height: 100%;
+    width: 100%;
+}
+.about_con h5{
+    font-size: 30px;
+    font-family: monospace;    
+    text-align: center; 
+    padding-top: 40px;
+}
+.about_con p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+    padding-top: 20px;
+}
+/*about part css end*/
+
+/*gallery part css start */
+.gly_head h4{
+    color: #fff;
+    background-color: brown;
+}
+
+.gly_img{
+    float: left;
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+}
+.gly_img img{
+    height: 100%;
+    width: 100%;
+}
+.gly_overlay{
+    position: absolute;
+    left: 0;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+
+}
+.gly_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.gly_img:hover .gly_overlay{
+    transform: scale(1);
+    top: 0;
+    transition: all linear .3s;
+}
+.gly_pad{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+/*gallery part css end*/
+
+/*footer part start */
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.anonto{
+    font-size: 22px;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+}
+/*footer part end*/
